@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Proof of Concept - React Admin on FHIR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses [React Admin](https://marmelab.com/react-admin/) to quickly throw together an ADMIN UI ontop of FHIR Resources. But it can be used with other things. Currently points to public FHIR server HAPI at `http://hapi.fhir.org/baseR4`, but can point to any FHIR server.
+
+## React Admin Resources
+
+- [Getting Started](https://marmelab.com/react-admin/Tutorial.html)
+- [Auth](https://marmelab.com/react-admin/Authentication.html)
+- [DataProviders](https://marmelab.com/react-admin/DataProviders.html)
+
+![PatientList](https://github.com/icanbwell/poc-reactadmin-on-fhir/blob/master/patient-list.png?raw=true)
 
 ## Available Scripts
 
